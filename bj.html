@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/bjcss.css" rel="stylesheet" type="text/css">
+    <title>Black Jack</title>
+</head>
+<body>
+<div class="bg">
+    <div class="logo">
+        <img src="https://www.firstcomicsnews.com/wp-content/uploads/2019/12/Blackjack-logo-600x257.png">
+
+    </div>
+    <br></br>
+    <div class="container">
+    <h3><span id="bjdeal">Lets Deal!</span></h3>
+    </div>
+    <div class="container1">
+        <div class="bjrow1">
+           
+            <div id="yourbox"> <h2>You : <span id="yourbjresult">0</span></h2></div>
+           
+            <div id="dealerbox"> <h2>Dealer : <span id="dealerbjresult">0</span></h2></div>
+
+        </div>
+        <div  class="bjrow2">
+            <div>
+                <button class="btn-lg btn btn-primary mr-2"id="hit" >HIT</button>
+                <button class="btn-lg btn btn-warning mr-2" id="stand">STAND</button>
+                <button class="btn-lg btn btn-danger mr-2"id="deal">DEAL</button>
+            </div>
+        </div>
+
+        <div class="bjrow3">
+            <table>
+                <tr class="wld ">
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr >
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+<script src="./bjjvs.js" type="text/javascript"  defer></script>
+</body>
+</html>
