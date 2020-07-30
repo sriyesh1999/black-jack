@@ -4,4 +4,4 @@ HTML
 CSS
 JavaScript
 
-The  images of cards are saved in a folder names CSS .
+
